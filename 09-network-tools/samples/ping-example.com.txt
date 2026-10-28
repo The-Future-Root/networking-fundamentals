@@ -1,0 +1,9 @@
+PING example.com (172.66.147.243) 56(84) bytes of data.
+64 bytes from 172.66.147.243: icmp_seq=1 ttl=64 time=4.98 ms
+64 bytes from 172.66.147.243: icmp_seq=2 ttl=64 time=9.54 ms
+64 bytes from 172.66.147.243: icmp_seq=3 ttl=64 time=8.11 ms
+64 bytes from 172.66.147.243: icmp_seq=4 ttl=64 time=9.60 ms
+
+--- example.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 4.980/8.055/9.596/1.873 ms

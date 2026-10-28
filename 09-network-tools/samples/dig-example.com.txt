@@ -1,0 +1,22 @@
+
+; <<>> DiG 9.20.29-1-Debian <<>> @1.1.1.1 example.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21977
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		52	IN	A	172.66.147.243
+example.com.		52	IN	A	104.20.23.154
+
+;; Query time: 23 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Mon Oct 26 04:44:21 UTC 2026
+;; MSG SIZE  rcvd: 72
+
